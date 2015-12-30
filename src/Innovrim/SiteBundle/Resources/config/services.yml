@@ -1,0 +1,4 @@
+services:
+#    innovrim_site.example:
+#        class: Innovrim\SiteBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
