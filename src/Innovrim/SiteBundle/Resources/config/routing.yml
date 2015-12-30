@@ -1,4 +1,4 @@
 index:
-    pattern:  /index
+    pattern:  /
     defaults: { _controller: InnovrimSiteBundle:Default:index }
 
