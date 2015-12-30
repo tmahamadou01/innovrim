@@ -94,3 +94,12 @@ fos_user:
     service:
         user_manager: sonata.user.orm.user_manager                      # If you're using doctrine orm (use sonata.user.mongodb.group_manager for mongodb)
 
+sonata_admin:
+    security:
+        handler: sonata.admin.security.handler.role
+
+    title:      'Administration Innovrim'
+    title_logo:  bundles/sonataadmin/famfamfam/logo_ip.png
+
+
+
