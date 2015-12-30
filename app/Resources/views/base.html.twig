@@ -2,17 +2,25 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>{% block title %} Bienvenue sur le site {% endblock %}</title>
+        <title>{% block title %} Innovrim {% endblock %}</title>
         {% block stylesheets %}
-		    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
-		{% endblock %}
-        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+
+            {#Appel des fichiers bootstap en CDN#}
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+            <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        {% endblock %}
+
+
     </head>
     <body>
+        <header>
+            {#ici tu ajoutes le header pour ne pas le repeter a chaque fois#}
+        </header>
         {% block body %}  {% endblock %}
+        {#Appel des fichiers bootstap en CDN#}
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         {% block javascripts %}
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-{% endblock %}
+        {% endblock %}
     </body>
 </html>
