@@ -16,6 +16,32 @@
     <body>
         <header>
             {#ici tu ajoutes le header pour ne pas le repeter a chaque fois#}
+				<nav class="navbar navbar-default navbar-fixed-top">
+				  <div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					  <ul class="nav navbar-nav">
+						<li class="active"><a href="#">ACCUEIL <span class="sr-only">(current)</span></a></li>
+						<li class="dropdown">
+						  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INNOVRIM <span class="caret"></span></a>
+						  <ul class="dropdown-menu">
+							<li><a href="#">Qui somme-nous</a></li>
+							<li><a href="#">SahalFablab</a></li>
+							<li><a href="#">Femmes et TICs</a></li>
+							<li><a href="#">OSM Mauritanie</a></li>
+							<li><a href="#">JerryClan</a></li>
+							<li><a href="#">SahelDroid</a></li>
+						  </ul>
+						</li>
+						<li><a href="#">EVENEMENTS</a></li>
+						<li><a href="#">ACTIVITES</a></li>
+						<li><a href="#">FORMATION</a></li>
+						<li><a href="#">CONTACT</a></li>
+					  </ul>
+					</div>
+				  </div>
+				</nav>
         </header>
         {% block body %}  {% endblock %}
         {#Appel des fichiers bootstap en CDN#}
