@@ -15,6 +15,7 @@
 
     </head>
     <body>
+    {#Debut header#}
     <header class="main-header">
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
@@ -35,9 +36,12 @@
                             <li class="dropdown">
                                 <a data-toggle="dropdown" class="dropdown-toggle" href="#">INNOVRIM<b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Lien #2-a</a></li>
-                                    <li><a href="#">Lien #2-b</a></li>
-                                    <li><a href="#">Lien #2-c</a></li>
+                                    <li><a href="#">QUI SOMMES-NOUS</a></li>
+                                    <li><a href="#">SAHEL FABLAB</a></li>
+                                    <li><a href="#">FEMMES ET TICS</a></li>
+                                    <li><a href="#">OSM MAURITANIE</a></li>
+                                    <li><a href="#">JERRYCLAN MAURITANIE</a></li>
+                                    <li><a href="#">SAHEL DROID</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">EVENEMENTS</a></li>
@@ -50,6 +54,7 @@
             </div>
         </nav>
     </header>
+    {#Fin header#}
         {% block body %}  {% endblock %}
         {#Appel des fichiers bootstap en CDN#}
         <script src="{{ asset('bundles/innovrimsite/js/jquery-1.11.3.min.js') }}"></script>
