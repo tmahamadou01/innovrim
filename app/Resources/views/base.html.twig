@@ -9,6 +9,7 @@
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
             <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+            <link rel="stylesheet" href="{{ asset('bundles/innovrimsite/css/style.css') }}">
         {% endblock %}
 
 
@@ -24,21 +25,25 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Innovrim</a>
+                    <a class="navbar-brand" href="#"><img src="{{ asset('bundles/sonataadmin/famfamfam/logo_ip.png') }}" alt=""></a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
 
-                        <li><a href="#">Administration</a></li>
-                        <li><a href="#">Trombinoscope</a></li>
-                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Dropdown Link 1</a></li>
-                                <li><a href="#">Dropdown Link 2</a></li>
-                                <li><a href="#">Dropdown Link 3</a></li>
-                            </ul>
-                        </li>
+                            <li><a href="#">ACCUEIL</a></li>
+                            <li class="dropdown">
+                                <a data-toggle="dropdown" class="dropdown-toggle" href="#">INNOVRIM<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Lien #2-a</a></li>
+                                    <li><a href="#">Lien #2-b</a></li>
+                                    <li><a href="#">Lien #2-c</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">EVENEMENTS</a></li>
+                            <li><a href="#">ACTIVITES</a></li>
+                            <li><a href="#">FORMATION</a></li>
+                            <li><a href="#">CONTACT</a></li>
 
                     </ul>
                 </div>
@@ -47,7 +52,7 @@
     </header>
         {% block body %}  {% endblock %}
         {#Appel des fichiers bootstap en CDN#}
-        <script src="{{ asset('bundles/iuch/js/jquery-1.11.3.min.js') }}"></script>
+        <script src="{{ asset('bundles/innovrimsite/js/jquery-1.11.3.min.js') }}"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         {% block javascripts %}
         {% endblock %}

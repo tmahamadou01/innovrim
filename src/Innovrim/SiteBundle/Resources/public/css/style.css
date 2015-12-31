@@ -1,0 +1,18 @@
+.navbar-right .dropdown-menu {
+    left: auto;
+    right: auto;
+}
+.navbar {
+    position: relative;
+    min-height: 80px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+    padding-top: 25px;
+}
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 28px;
+}
