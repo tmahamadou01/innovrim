@@ -36,3 +36,9 @@
 .navbar{
     margin-bottom: 0px;
 }
+.presentation{
+    padding-top: 40px;
+}
+.presentation h1 {
+    padding-bottom: 40px;
+}
