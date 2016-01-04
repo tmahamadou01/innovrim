@@ -1,3 +1,6 @@
+body {
+    background-repeat: repeat;
+}
 .navbar-right .dropdown-menu {
     left: auto;
     right: auto;
