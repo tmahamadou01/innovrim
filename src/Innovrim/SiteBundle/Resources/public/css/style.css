@@ -15,6 +15,16 @@ body {
     color: #777;
     padding-top: 29px;
 }
+.navbar-default .navbar-nav > li > a:hover {
+    color: #fff;
+    background-color: #138428;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    background-color: #138428;
+    background-image: linear-gradient(to bottom, #138428 0px, #138428 100%);
+    background-repeat: repeat-x;
+    color: #fff;
+}
 
 .navbar-nav > li > a {
     padding-top: 15px;
