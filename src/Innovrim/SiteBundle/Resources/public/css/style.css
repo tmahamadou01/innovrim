@@ -36,6 +36,19 @@ body {
     height: 500px;
     width: 1280px;
 }
+.slider .slide_bg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    text-indent: 20px;
+    padding: 20px 0;
+    color: #fff;
+    background-image: url('../img/bg_trans.png');
+    text-decoration: none;
+    font-size: 18px;
+}
 .navbar{
     margin-bottom: 0px;
 }
